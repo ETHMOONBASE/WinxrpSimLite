@@ -4,6 +4,123 @@
 
 .resultscontainer {
     width: 40%;
-    margin-left: auto;
-    margin-right: auto;
+    float: right;
+}
+
+#chartdiv {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+fieldset {
+    float: left;
+    width: 60%;
+}
+
+.inputGroupContainer {
+    float: left;
+}
+
+.control-label {
+    float: left;
+    width: 20%;
+}
+
+#chartCheck {
+    width: 17%;
+    float: left;
+}
+
+#autoCheck {
+    width: 40%;
+    float: left;
+}
+
+.startCalc {
+    margin-left: 60px;
+    float: left;
+    padding-right: 0px;
+}
+
+#startCalcBtn {
+    float: right;
+    width: 100%;
+}
+
+.checkboxy {
+    cursor: pointer;
+}
+
+.form-horizontal {
+    z-index: 99;
+}
+
+.discordBtn {
+    float: right;
+    background-color: #08ba6a;
+    border-color: #08ba6a;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+legend {
+    height: 40px;
+}
+
+.btcBtn {
+    float: right;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.modal,
+.modal-dialog {
+    margin: 5px auto;
+    width: 300px;
+}
+
+input.autoInput {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #08ba6a;
+    width: 80px;
+    text-align: center;
+}
+
+.radioey {
+    cursor: pointer;
+    font-weight: normal;
+}
+
+disclaimer {
+    color: #08ba6a;
+}
+
+.themeSwitch {
+    float: right;
+    color: #08ba6a;
+    border: 2px solid grey;
+    padding: 2px;
+    margin-top: 4px;
+    margin-right: 8px;
+    font-size: 0.8em;
+}
+
+.themeSwitch:hover {
+    cursor: pointer;
+    color: #c87629;
+}
+
+legend {
+    color: "#032d40"
+}
+
+label {
+    color: "#032d40";
+}
+
+th {
+    color: "#032d40"
 }
