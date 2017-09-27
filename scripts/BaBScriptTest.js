@@ -45,7 +45,7 @@ var babScriptTester = {
     }
     , crashPointFromHash: function (serverSeed) {
         // see: provably fair seeding event
-        var hash = this.hmac(serverSeed, '000000000000000007a9a31ff7f07463d91af6b5454241d5faf282e5e0fe1b3a');
+        var hash = this.hmac(serverSeed, '0000000000000000006901b2c7a66dad80c1e8693cf71499d844842e47dd78d4');
         // In 1 of 101 games the game crashes instantly.
         if (this.divisible(hash, 101)) return 0;
         // Use the most significant 52-bit from the hash to calculate the crash point
