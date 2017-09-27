@@ -72,7 +72,7 @@ babScriptTester.toggleTheme = function () {
         babScriptTester.sheet.deleteRule(22);
         babScriptTester.sheet.deleteRule(22);
         document.getElementById("switchTheme").innerText = "Go black";
-        document.body.style.backgroundColor = "#FFF";
+        document.body.style.backgroundColor = "#0050f0";
     }
 }
 babScriptTester.simulateFromAuto = function (baseBetInBits, autoCashoutAt, stopAtBits, onLossReturnToBaseBet, onWinReturnToBaseBet, increaseBetByOnLoss, increaseBetByOnWin) {
