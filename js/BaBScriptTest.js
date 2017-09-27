@@ -63,7 +63,7 @@ babScriptTester.toggleTheme = function () {
         babScriptTester.sheet.insertRule("th {color: #FFF;}", 24);
         babScriptTester.sheet.insertRule("td {color: #FFF;}", 25);
         document.getElementById("switchTheme").innerText = "Go back";
-        document.body.style.backgroundColor = "#001847";
+        document.body.style.backgroundColor = "#181a1e";
     }
     else {
         localStorage.setItem("darktheme", "false");
@@ -72,7 +72,7 @@ babScriptTester.toggleTheme = function () {
         babScriptTester.sheet.deleteRule(22);
         babScriptTester.sheet.deleteRule(22);
         document.getElementById("switchTheme").innerText = "Go black";
-        document.body.style.backgroundColor = "#0053fa";
+        document.body.style.backgroundColor = "#FFF";
     }
 }
 babScriptTester.simulateFromAuto = function (baseBetInBits, autoCashoutAt, stopAtBits, onLossReturnToBaseBet, onWinReturnToBaseBet, increaseBetByOnLoss, increaseBetByOnWin) {
